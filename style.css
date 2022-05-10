@@ -63,6 +63,12 @@ button:hover {
     cursor: pointer;
 }
 
+.addtask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .todos {
    display: flex;
