@@ -208,7 +208,7 @@ button:hover {
      resize: none;
  }
 
- .task-comment-text:focus, input:focus, .task-date:focus {
+ .task-comment-text:focus, input:focus, .task-date:focus, button:focus {
      outline: none;
  }
 
