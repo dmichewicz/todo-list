@@ -16,20 +16,35 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
 <body>
 
  
+<div class="menu">
+ 
     <div class="filter-todo">
+        
+
         <button class="filter-all filter-button"><span>all</span></button>
         <button class="filter-completed filter-button"><span>completed</span></button>
         <button class="filter-uncompleted filter-button"><span>uncompleted</span></button>
         <button class="filter-important filter-button"><span>important</span></button>
         <button class="filter-today filter-button"><span>today</span></button>
     </div>
+
+
+
     <form class="task-input">
-        <input class="form-date" type="date" name="date"> 
+        <div class="addtask">
+            <input class="form-date" type="date" name="date" class="fa fa-calendar"> 
+            <button class="fa fa-calendar date-button"></button>
+        </div>
         <div class="addtask">
             <input class="form-text" type="text" name="task" placeholder="add new task...">
-            <button class="fa fa-add"></button>
+            <button class="fa fa-add add-button"></button>
         </div>
     </form>
+   
+</div>
+
+
+
  
 
     <div class="todos"></div>
